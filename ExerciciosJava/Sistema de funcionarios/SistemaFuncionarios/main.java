@@ -1,5 +1,3 @@
-package SistemaFuncionarios;
-
 public class main {
     public static void main(String[] args) {
         Desenvolvedor dev1 = new Desenvolvedor("João", 5000.0);

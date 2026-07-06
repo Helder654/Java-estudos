@@ -1,5 +1,3 @@
-package SistemaFuncionarios;
-
 public abstract class Funcionario {
     String nome;
     double salario;
@@ -10,7 +8,7 @@ public abstract class Funcionario {
     }
     public void mostrarDados() {
         System.out.println("Nome: " + nome);
-        System.out.println("Salário: " + salario);
+        System.out.println("Salário base: " + salario);
     }
     public abstract void trabalhar();
 

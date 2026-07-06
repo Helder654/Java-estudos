@@ -1,5 +1,3 @@
-package SistemaFuncionarios;
-
 public class Desenvolvedor extends Funcionario implements Bonificavel {
     public Desenvolvedor(String nome, double salario) {
         super(nome, salario);
