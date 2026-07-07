@@ -48,7 +48,7 @@ public class Main {
 
         Arqueiro Arqueiro1 = new Arqueiro(nome, nivel, vida, tipoFlecha);
 
-        System.out.println("Voce criou um guerreiro");
+        System.out.println("Voce criou um Arqueiro ");
         Arqueiro1.informacoesHeroi();
         Arqueiro1.atacar();
     }else{
